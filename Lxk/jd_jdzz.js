@@ -1,4 +1,4 @@
-/*
+/* 2021-1-19 23:04:27
 京东赚赚
 可以做随机互助
 活动入口：京东赚赚小程序
@@ -49,8 +49,8 @@ const inviteCodes = []
 !(async () => {
   $.tuanList = []
   await requireConfig();
-  // if (helpAuthor) await getAuthorShareCode('https://gitee.com/shylocks/updateTeam/raw/main/jd_zz.json');
-  // if (helpAuthor) await getAuthorShareCode('https://gitee.com/lxk0301/updateTeam/raw/master/jd_zz.json');
+  if (helpAuthor) await getAuthorShareCode('');
+  if (helpAuthor) await getAuthorShareCode('');
   if (!cookiesArr[0]) {
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
     return;
