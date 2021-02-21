@@ -9,6 +9,7 @@
 参数 helpAuthor = false
 
 更新地址：https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js
+自定地址：https://raw.githubusercontent.com/Tback1/iOS-url/main/Lxk/fshd.js
 ============Quantumultx===============
 [task_local]
 #粉丝互动
