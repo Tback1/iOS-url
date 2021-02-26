@@ -42,6 +42,7 @@ const jxOpenUrl = `openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%2
 let cookiesArr = [], cookie = '', message = '';
 const inviteCodes = [
   'hnC0M9W7FeUq0MHwwKBoQw==',
+  'FrXKuV3FkMkdVLL4TPii8Q==',
   // "",
 ];
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
