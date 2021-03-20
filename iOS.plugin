@@ -1,13 +1,10 @@
-
 [Rule]
 DOMAIN-KEYWORD,api.themoviedb.org,节点选择
 DOMAIN,rsshub.app,节点选择
-
-IP-CIDR6,CN,DIRECT
-FINAL,DIRECT
-
 DOMAIN-KEYWORD,jd.turinglabs.net,REJECT
 DOMAIN-KEYWORD,code.chiang.fun,REJECT
+IP-CIDR6,CN,DIRECT
+FINAL,DIRECT
 
 
 [URL Rewrite]
